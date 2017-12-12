@@ -27,14 +27,14 @@
 执行`npm install`再执行`nodemon koa-proxy`。
 
 ## 使用方法
-###开发
+### 开发
 0、gitclone 本项目
 1、执行 `npm i`.
 2、确认`src\app\config\td-config.ts`文件中的端口号和`koa-proxy.js`中的端口号相同。
 2、执行 `ng serve` 启动一个angular开发服务。
 3、执行 `nodemon koa-proxy` 开启中转服务器。
 
-###生产
+### 生产
 0、修改`src\app\config\td-config.ts`中的`this.serveUrl = ''`。
 1、执行 `ng build` 编译项目。
 2、拷贝`src\dist`文件夹和 `koa-proxy.js`文件到`src\build`目录下。
