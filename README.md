@@ -1,10 +1,10 @@
 # Oniangular
 
 ## 需求说明
-我们的服务端，要求我自己搭建一个中转服务器。
-因为app端的请求，我们都是依赖于token，而且这个token是不变的。
-之前都是服务端保存session数据，进行用户身份认证的。现在服务端不想单独为了web端做这些工作，
-希望和app端使用一样的方式。所以需要前段自己搭建一个中转服务器，用于处理跨域访问和tokon的问题。
+我们的项目要求搭建一个中转服务器。
+因为在app端的请求，我们都是依赖于token，而且这个token是不变的。
+之前都是服务端保存session数据，进行用户身份认证的。现在希望web和app端使用一样的方式。
+所以需要前段自己搭建一个中转服务器，用于处理跨域访问和tokon的问题。
 此项目脚手架使用的[Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.创建。
 在koa中对token这些数据做处理，再进行代理，将所有的http请求中转到实际的服务器api。
 ### 特别说明
@@ -44,6 +44,9 @@
 ### 说明
 UI框架使用[NG-ZORRO](https://ng.ant.design/#/docs/angular/introduce)
 NG-ZORRO是Ant Design 的 Angular^5.0.0 实现，开发和服务于企业级后台产品。
+
+### BUG和建议
+请提交到ISS:https://github.com/xiaohuoni/angular/issues
 
 以下是angular的README
 
